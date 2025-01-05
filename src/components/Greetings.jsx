@@ -8,7 +8,7 @@ import { greetings } from "@/constants/portfolio"
 const Greetings = () => {
     return (
 
-        <section className="bg-[#0a2540]  py-24   ">
+        <section className="bg-[#0a2540]  py-10   ">
             <Fade bottom duration={2000} distance="40px">
                 <div className="container px-4 mx-auto flex flex-col lg:flex-row items-center">
                     <div className="lg:w-1/2 ">

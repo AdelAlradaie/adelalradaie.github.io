@@ -211,7 +211,7 @@ export const projects = [
     },
     {
         name: "Portfolio",
-        desc: "Software Developer Portfolio Template built with react.js and typescript bootstrap that helps you showcase your work and skills as a software developer.",
+        desc: "Software Developer Portfolio Template built with react.js and tailwindcss that helps you showcase your work and skills as a software developer.",
         github: "https://github.com/AdelAlradaie/adelalradaie.github.io",
         link: "https://adelalradaie.github.io",
         images: [

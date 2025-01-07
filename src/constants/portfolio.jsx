@@ -221,7 +221,7 @@ export const projects = [
         ],
         technologies: [
             { Icon: <SiReact size={25} color="#61DAFB" />, title: 'React' },
-            { Icon: <SiBootstrap size={25} color='#7952B3' />, title: 'Bootstrap' },
+            { Icon: <SiTailwindcss size={25} color='#38B2AC' />, title: 'Tailwind CSS' },
             { Icon: <SiHtml5 size={25} color='#E34F26' />, title: 'HTML5' },
             { Icon: <SiCss3 size={25} color='#1572B6' />, title: 'CSS3' },
 

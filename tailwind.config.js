@@ -1,4 +1,22 @@
 /** @type {import('tailwindcss').Config} */
+
+const plugin = require("tailwindcss/plugin")
+const Myclass = plugin(function ({addUtilities}){
+	addUtilities({
+		".rotate-y-180":{
+			transform:"rotateY(180deg)",
+		},
+		".perspective":{
+			perspective:"1000px"
+		},
+		".preserve-3d":{
+			transformStyle:"preserve-3d"
+		},
+		".backface-hidden":{
+			backfaceVisibility:"hidden"
+		}
+	})
+})
 module.exports = {
     darkMode: ["class"],
     content: ["./index.html", "./src/**/*.{ts,tsx,js,jsx}"],
@@ -54,5 +72,5 @@ module.exports = {
   		}
   	}
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [require("tailwindcss-animate"),Myclass],
 }

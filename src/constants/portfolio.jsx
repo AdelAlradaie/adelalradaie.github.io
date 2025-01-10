@@ -8,6 +8,9 @@ import portfolio from "../assets/images/projects/portfolio.png"
 import mernstate from "../assets/images/projects/mernstate.png"
 import hujwzat from "../assets/images/projects/hujwzat.png"
 import vendor from "../assets/images/projects/vendor.png"
+import frontend from "../assets/images/certificates/frontend.jpg"
+import frontend2 from "../assets/images/certificates/frontend-2.jpg"
+import backend from "../assets/images/certificates/backend.jpg"
 import { SiLaravel, SiJavascript, SiHtml5, SiCss3, SiTailwindcss, SiDocker, SiPhp, SiNodedotjs, SiBootstrap, SiReact, SiNpm, SiRedux, SiFirebase, SiMongodb, SiGithub, SiWebpack, SiLinkedin } from 'react-icons/si';
 
 export const greetings = {
@@ -68,7 +71,7 @@ export const skillsSection = {
             lottieAnimationFile: cloudinfra, // Path of Lottie Animation JSON File
             skills: [
                 emoji("⚡ Experience of working on multiple cloud platforms"),
-                
+
                 emoji("⚡ Develop, implement, and maintain applications and systems that integrate MongoDB technology"),
                 emoji("⚡ Develop and maintain mobile and web applications using Firebase as a backend platform."),
             ],
@@ -114,7 +117,22 @@ export const educationInfo =
 
 }
 
-
+export const certificatesInfo = [
+    {
+        title: "Front End Development Libraries",
+        image: frontend,
+        link: "https://www.freecodecamp.org/certification/AdelAlradaie/front-end-development-libraries"
+    },
+    {
+        title: "Back End Development And APIs",
+        image: backend,
+        link: "https://www.freecodecamp.org/certification/AdelAlradaie/back-end-development-and-apis"
+    }, {
+        title: "Front End Developer (React)",
+        image: frontend2,
+        link: "https://www.hackerrank.com/certificates/iframe/d939e62fba75"
+    },
+]
 
 export const experienceData = [
     {
@@ -148,7 +166,7 @@ export const projects = [
             }
         ],
         technologies: [
-            { Icon: <SiReact size={25} color="#61DAFB"  />, title: 'React' },
+            { Icon: <SiReact size={25} color="#61DAFB" />, title: 'React' },
             { Icon: <SiLaravel size={25} color='#FF2D20' />, title: 'Laravel' },
             { Icon: <SiWebpack size={25} color="blue" />, title: 'WebPack' },
             { Icon: <SiTailwindcss size={25} color='#38B2AC' />, title: 'Tailwind CSS' },
@@ -175,40 +193,40 @@ export const projects = [
 
         ]
     },
-    {
-        name: "Blog-Website",
-        desc: "Fullstack Blog website with admin-panel Built With Laravel 11 , Filament-php , Tailwind-Css. ",
-        github: "https://github.com/AdelAlradaie/Laravel-blog",
-        // link: "",
-        images: [
-            {
-                link: blog
-            }
-        ],
-        technologies: [
-            { Icon: <SiLaravel size={25} color='#FF2D20' />, title: 'Laravel' },
-            { Icon: <SiTailwindcss size={25} color='#38B2AC' />, title: 'Tailwind CSS' },
+    // {
+    //     name: "Blog-Website",
+    //     desc: "Fullstack Blog website with admin-panel Built With Laravel 11 , Filament-php , Tailwind-Css. ",
+    //     github: "https://github.com/AdelAlradaie/Laravel-blog",
+    //     // link: "",
+    //     images: [
+    //         {
+    //             link: blog
+    //         }
+    //     ],
+    //     technologies: [
+    //         { Icon: <SiLaravel size={25} color='#FF2D20' />, title: 'Laravel' },
+    //         { Icon: <SiTailwindcss size={25} color='#38B2AC' />, title: 'Tailwind CSS' },
 
 
-        ]
-    },
-    {
-        name: "instagram-clone",
-        desc: "Fullstack Instagram Clone Built With React, Firebase && Chakra UI. ",
-        github: "https://github.com/AdelAlradaie/Instagram-clone",
-        link: "https://insta-24255.web.app",
-        images: [
-            {
-                link: instagram
-            }
-        ],
-        technologies: [
-            { Icon: <SiReact size={25} color="#61DAFB" />, title: 'React' },
-            { Icon: <SiFirebase size={25} color='#FFCA28' />, title: 'Firebase' },
-            { Icon: <SiNpm size={25} color="#CB3837" />, title: 'npm' },
+    //     ]
+    // },
+    // {
+    //     name: "instagram-clone",
+    //     desc: "Fullstack Instagram Clone Built With React, Firebase && Chakra UI. ",
+    //     github: "https://github.com/AdelAlradaie/Instagram-clone",
+    //     link: "https://insta-24255.web.app",
+    //     images: [
+    //         {
+    //             link: instagram
+    //         }
+    //     ],
+    //     technologies: [
+    //         { Icon: <SiReact size={25} color="#61DAFB" />, title: 'React' },
+    //         { Icon: <SiFirebase size={25} color='#FFCA28' />, title: 'Firebase' },
+    //         { Icon: <SiNpm size={25} color="#CB3837" />, title: 'npm' },
 
-        ]
-    },
+    //     ]
+    // },
     {
         name: "Portfolio",
         desc: "Software Developer Portfolio  built with react.js and tailwindcss that helps you showcase your work and skills as a software developer.",

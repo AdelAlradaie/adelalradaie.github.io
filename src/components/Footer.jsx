@@ -7,8 +7,8 @@ import profileImg from "../assets/images/profile.jpg"
 const Footer = () => {
     const currentYear = new Date().getFullYear()
     return (
-        <footer className="bg-[#0a2540] flex flex-col   py-20">
-            <div className="container mx-auto px-4 flex flex-col-reverse lg:flex-row justify-between items-center">
+        <footer className="bg-[#0a2540] flex flex-col   ">
+            <div className="container mx-auto px-4 flex flex-col-reverse lg:flex-row py-20 justify-between items-center">
                 <div className="flex flex-col mt-6 lg:mt-0 ">
                     <h1 className="text-3xl text-white font-semibold mb-6">{FooterDetails.title}</h1>
                     <p className="text-[#adbdcc]">{FooterDetails.desc}</p>
@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <div className="m-auto pt-6 lg:pt-0">
+            <div className="m-auto py-4">
                     <p className="text-white">&copy; {currentYear}  <a  target="_blank" rel="noopener noreferrer" className="text-[#00d4ff]" href={socialLinks.github}>Adel Alradaie .</a>  All rights reserved.  </p>
                 </div>
         </footer>

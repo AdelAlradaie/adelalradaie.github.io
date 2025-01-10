@@ -24,7 +24,7 @@ const Footer = () => {
                 </div>
                 
             </div>
-            <div className="m-auto">
+            <div className="m-auto pt-6 lg:pt-0">
                     <p className="text-white">&copy; {currentYear}  <a  target="_blank" rel="noopener noreferrer" className="text-[#00d4ff]" href={socialLinks.github}>Adel Alradaie .</a>  All rights reserved.  </p>
                 </div>
         </footer>

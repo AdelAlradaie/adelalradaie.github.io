@@ -28,23 +28,23 @@ const Projects = () => {
     }, [])
 
     return (
-        <section className="bg-[#0a2540] py-8 my-4  ">
+        <section className="bg-white py-6  ">
             <div className="container mx-auto px-4">
                 <Fade bottom duration={2000} distance="20px">
-                    <div className="flex items-center gap-2 mb-6 ">
+                    <div className="flex items-center gap-2 py-4 ">
                         <Laptop color="#00d4ff" size={30} />
                         <h1 className="text-[2.5rem]  text-[#00d4ff]">Projects</h1>
                     </div>
                 </Fade>
 
                 <Fade bottom duration={2000} distance="20px">
-             <div className=" grid grid-cols-1   md:grid-cols-2  lg:grid-cols-4 gap-4">
+             <div className=" grid grid-cols-1   md:grid-cols-2  lg:grid-cols-3 gap-4">
                     {projects.map((project, index) => (
                          
                         <div className="h-[350px] max-w-[450px] w-full   mx-auto group perspective cursor-pointer   ">
                             <div className="relative h-full w-full group-hover:rotate-y-180  shadow-xl rounded duration-1000 preserve-3d ">
                                 <div className="absolute backface-hidden  h-full w-full">
-                                    <img className="h-full w-full object-center object-containe" src={project.images[0].link} alt="" />
+                                    <img className="min-h-[250px] rounded-t-lg  w-full  object-center" src={project.images[0].link} alt="" />
                                 </div>
                                 <div className=" absolute h-full w-full rotate-y-180 backface-hidden p-4 border-2 border-[#00d4ff] bg-[#0a2540]">
                                     <div className="grid gap-1 ">

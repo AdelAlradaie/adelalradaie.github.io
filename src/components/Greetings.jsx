@@ -17,7 +17,7 @@ const Greetings = () => {
                             {greetings.description}
                         </p>
                         <a href={greetings.resumeLink} target="_blank" rel="noopener noreferrer">
-                        <Button className="bg-[#00d4ff] text-[#0a2540] font-semibold mt-[3rem] hover:bg-gray-100   rounded-md px-4 ">see my resume</Button>
+                        <Button className="bg-[#00d4ff] text-[#0a2540] font-semibold mt-[3rem] transition-colors hover:bg-gray-100   rounded-md px-4 ">see my resume</Button>
                         </a>
                     </div>
                     <div className="lg:w-1/2 ">

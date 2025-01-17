@@ -28,29 +28,8 @@ const Projects = () => {
 
                 <Swiper
                     breakpoints={{
-
-
-
-                        320: {
-                            slidesPerView: 1,
-
-                        },
-
-                        480: {
-                            slidesPerView: 1,
-
-                        },
-
-
-                        640: {
-                            slidesPerView: 2,
-
-                        }
-                        , 768: {
-                            slidesPerView: 2,
-                        },
                         1024: {
-                            slidesPerView: 3,
+                            slidesPerView: 2,
                         }
 
 
@@ -62,8 +41,8 @@ const Projects = () => {
                         rotate: 0, depth: 100, modifier: 2.5, stretch: 0, slideShadows: 0
                     }} effect="coverflow" grabCursor={true} loop={true} slidesPerView={1} modules={[Navigation, Pagination, EffectCoverflow]} pagination={{ clickable: true }} navigation={true}>
                     {projects.map((project, index) => (
-                        <SwiperSlide key={index} className="p-10">
-                            <div className="h-[350px]  max-w-[600px]  w-full  group perspective cursor-pointer   ">
+                        <SwiperSlide key={index} className="p-10 ">
+                            <div className="h-[20rem]  mx-auto max-w-[600px]  w-full  group perspective cursor-pointer   ">
                                 <div className="relative  h-full w-full group-hover:rotate-y-180  shadow-xl rounded duration-1000 preserve-3d ">
                                     <div className="absolute backface-hidden  h-full w-full">
                                         <img className="h-full rounded-lg   w-full  object-center " src={project.images[0].link} alt="" />

@@ -10,7 +10,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore from "swiper"
 import "swiper/css/bundle"
 const Projects = () => {
-    SwiperCore.use([Navigation, EffectCoverflow, Pagination])
+    SwiperCore.use([Navigation, EffectCoverflow])
 
 
 
@@ -39,10 +39,10 @@ const Projects = () => {
 
                     autoplay spaceBetween={10} centeredSlides={true} coverflowEffect={{
                         rotate: 0, depth: 100, modifier: 2.5, stretch: 0, slideShadows: 0
-                    }} effect="coverflow" grabCursor={true} loop={true} slidesPerView={1} modules={[Navigation, Pagination, EffectCoverflow]} pagination={{ clickable: true }} navigation={true}>
+                    }} effect="coverflow" grabCursor={true} loop={true} slidesPerView={1} modules={[Navigation, EffectCoverflow]} pagination={{ clickable: true }} navigation={true}>
                     {projects.map((project, index) => (
                         <SwiperSlide key={index} >
-                            <div className="h-[400px]  mx-auto max-w-[600px]  w-full  group perspective cursor-pointer  py-4  ">
+                            <div className="h-[320px]  mx-auto max-w-[450px]  w-full  group perspective cursor-pointer   ">
                                 <div className="relative  bg-background shadow-xl rounded h-full w-full group-hover:rotate-y-180   duration-1000 preserve-3d ">
                                     <div className="absolute backface-hidden  h-full w-full">
                                         <img className="h-[250px] rounded-lg   w-full  object-cover object-center " src={project.images[0].link} alt="" />

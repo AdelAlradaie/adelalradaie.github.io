@@ -11,15 +11,9 @@ import SwiperCore from "swiper"
 import "swiper/css/bundle"
 const Projects = () => {
     SwiperCore.use([Navigation, EffectCoverflow, Pagination])
-  
-    const swiperRef = useRef(null);
 
-    const handleSlideClick = (swiper, index) => {
-  
-      swiper.slideTo(index);
-    };
- 
- 
+
+
 
 
     return (
@@ -32,46 +26,43 @@ const Projects = () => {
                     </div>
                 </Fade>
 
-                {/* <Fade bottom duration={2000} distance="20px"> */}
-                <Swiper 
-                breakpoints= {{
+                <Swiper
+                    breakpoints={{
 
-                
-                    // when window width is >= 320px
-                    320: {
-                      slidesPerView: 1,
-               
-                    },
-                    // when window width is >= 480px
-                    480: {
-                        slidesPerView: 1,
-                 
-                      },
-                 
-                    // when window width is >= 640px
-                    640: {
-                      slidesPerView: 2,
-                      
+
+
+                        320: {
+                            slidesPerView: 1,
+
+                        },
+
+                        480: {
+                            slidesPerView: 1,
+
+                        },
+
+
+                        640: {
+                            slidesPerView: 2,
+
+                        }
+                        , 768: {
+                            slidesPerView: 2,
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                        }
+
+
                     }
-                    ,768:{
-                        slidesPerView: 2,
-                    },
-                    1024:{
-                        slidesPerView: 3,
                     }
 
-                    
-                  }
-}
-                
-                
-                autoplay  onSwiper={(swiper) => (swiperRef.current = swiper)}  spaceBetween={10} centeredSlides={true} coverflowEffect={{
-                    rotate: 0, depth: 100, modifier: 2.5, stretch: 0, slideShadows: 0
-                }} effect="coverflow" grabCursor={true} loop={true} slidesPerView={1} modules={[Navigation, Pagination, EffectCoverflow]} pagination={{ clickable: true }} navigation={true}>
 
-                    {/* <div className=" grid grid-cols-1   md:grid-cols-2  lg:grid-cols-3 gap-4"> */}
+                    autoplay spaceBetween={10} centeredSlides={true} coverflowEffect={{
+                        rotate: 0, depth: 100, modifier: 2.5, stretch: 0, slideShadows: 0
+                    }} effect="coverflow" grabCursor={true} loop={true} slidesPerView={1} modules={[Navigation, Pagination, EffectCoverflow]} pagination={{ clickable: true }} navigation={true}>
                     {projects.map((project, index) => (
-                        <SwiperSlide key={index}  onClick={() => handleSlideClick(swiperRef.current, index)} className="p-10">
+                        <SwiperSlide key={index} className="p-10">
                             <div className="h-[300px]  max-w-[600px]  w-full  group perspective cursor-pointer   ">
                                 <div className="relative  h-full w-full group-hover:rotate-y-180  shadow-xl rounded duration-1000 preserve-3d ">
                                     <div className="absolute backface-hidden  h-full w-full">
@@ -118,15 +109,8 @@ const Projects = () => {
                             </div>
                         </SwiperSlide>
                     ))}
-                    {/* </div> */}
 
                 </Swiper>
-
-
-                {/* </Fade> */}
-
-
-
 
             </div>
 

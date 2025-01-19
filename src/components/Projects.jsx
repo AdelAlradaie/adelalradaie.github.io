@@ -43,10 +43,10 @@ const Projects = () => {
                     }} effect="coverflow" grabCursor={true} loop={true} slidesPerView={1} modules={[Navigation, EffectCoverflow]} pagination={{ clickable: true }} navigation={true}>
                     {projects.map((project, index) => (
                         <SwiperSlide key={index} >
-                            <div className="h-[320px]  mx-auto max-w-[450px]  w-full  group perspective cursor-pointer my-4  ">
+                            <div className="h-[320px]  mx-auto max-w-[450px]  w-full  group perspective cursor-pointer m-4  ">
                                 <div className="relative  bg-background shadow-md rounded h-full w-full group-hover:rotate-y-180   duration-1000 preserve-3d ">
                                     <div className="absolute backface-hidden h-full   w-full">
-                                        <img className="h-[250px]    max-w-full w-full  object-cover object-center " src={project.images[0].link} alt="" />
+                                        <img className="h-[250px]  rounded-t-md   max-w-full w-full  object-cover object-center " src={project.images[0].link} alt="" />
                                     </div>
                                     <div className=" absolute h-full w-full rotate-y-180 backface-hidden p-4 border-2 border-[#00d4ff] bg-[#0a2540]">
                                         <div className="grid gap-1 ">

@@ -18,7 +18,7 @@ const Projects = () => {
 
     return (
         <section className="bg-white py-32  ">
-            <div className=" container  mx-auto px-4">
+            <div className=" container  mx-auto px-4 ">
                 <Fade bottom duration={2000} distance="20px">
                     <div className="flex  items-center gap-2 py-4 ">
                         <Laptop color="#00d4ff" size={30} />
@@ -26,7 +26,8 @@ const Projects = () => {
                     </div>
                 </Fade>
 
-                <Swiper
+                <Swiper 
+            
                     breakpoints={{
                         1024: {
                             slidesPerView: 2,
@@ -42,8 +43,8 @@ const Projects = () => {
                     }} effect="coverflow" grabCursor={true} loop={true} slidesPerView={1} modules={[Navigation, EffectCoverflow]} pagination={{ clickable: true }} navigation={true}>
                     {projects.map((project, index) => (
                         <SwiperSlide key={index} >
-                            <div className="h-[320px]  mx-auto max-w-[450px]  w-full  group perspective cursor-pointer  py-6 ">
-                                <div className="relative  bg-background shadow-xl rounded h-full w-full group-hover:rotate-y-180   duration-1000 preserve-3d ">
+                            <div className="h-[320px]  mx-auto max-w-[450px]  w-full  group perspective cursor-pointer my-4  ">
+                                <div className="relative  bg-background shadow-md rounded h-full w-full group-hover:rotate-y-180   duration-1000 preserve-3d ">
                                     <div className="absolute backface-hidden h-full   w-full">
                                         <img className="h-[250px]    max-w-full w-full  object-cover object-center " src={project.images[0].link} alt="" />
                                     </div>

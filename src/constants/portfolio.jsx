@@ -139,7 +139,7 @@ export const experienceData = [
         role: "Front-End Developer",
         company: "YORK BRITISH ACADEMY",
         companylogo: york,
-        date: "2023-2024",
+        date: "2024-present",
         desc: "It's a startup in UK .",
     },
     {

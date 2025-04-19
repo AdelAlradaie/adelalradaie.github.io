@@ -144,7 +144,7 @@ const workExperiences = [
       role: "Front-End Developer",
       company: "YORK BRITISH ACADEMY",
       companylogo: require("./assets/images/york.jpg"),
-      date: "June 2024 – Present",
+      date: "June 2024 – Aug 2024",
        desc: "It's a startup in UK  ."
       
     },

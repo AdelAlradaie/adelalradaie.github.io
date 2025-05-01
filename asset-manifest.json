@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.c07a29be.css",
-    "main.js": "/static/js/main.d1067404.js",
+    "main.js": "/static/js/main.bb7af8d5.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/resume.pdf": "/static/media/resume.0f5a99f2c68b37af765f.pdf",
     "static/media/frontend.JPG": "/static/media/frontend.7cca10decf6b3a51ed3f.JPG",
     "static/media/hujwzat.JPG": "/static/media/hujwzat.d8bc257f1260cf2acc6c.JPG",
-    "static/media/portfolio.JPG": "/static/media/portfolio.36d02e4719a0973d89f1.JPG",
+    "static/media/portfolio.JPG": "/static/media/portfolio.6ae95669ce18420466ec.JPG",
     "static/media/vendor.JPG": "/static/media/vendor.6e46f5cd0c821c280a00.JPG",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/frontend-2.JPG": "/static/media/frontend-2.47d39e3d9c4695216495.JPG",
@@ -15,10 +15,10 @@
     "static/media/york.jpg": "/static/media/york.849277ed646f4bf9a6f7.jpg",
     "index.html": "/index.html",
     "main.c07a29be.css.map": "/static/css/main.c07a29be.css.map",
-    "main.d1067404.js.map": "/static/js/main.d1067404.js.map"
+    "main.bb7af8d5.js.map": "/static/js/main.bb7af8d5.js.map"
   },
   "entrypoints": [
     "static/css/main.c07a29be.css",
-    "static/js/main.d1067404.js"
+    "static/js/main.bb7af8d5.js"
   ]
 }

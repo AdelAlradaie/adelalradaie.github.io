@@ -28,7 +28,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/AdelAlradaie",
   linkedin: "https://www.linkedin.com/in/adel-alradaie",
-  gmail: "adelmohm209@gmail.com",
+  gmail: "adelalradaie@gmail.com",
   display: true 
 };
 

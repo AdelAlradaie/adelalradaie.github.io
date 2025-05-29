@@ -1,12 +1,12 @@
 import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation"; 
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 
 
 const splashScreen = {
   enabled: true,
   animation: splashAnimation,
-  duration: 2000 
+  duration: 2000
 };
 
 
@@ -19,8 +19,8 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with  Reactjs  / React Native / Laravel / Nodejs / MongoDB ..etc. Experienced in working on team-based projects and delivering high-quality solutions for clients. Adept at problem-solving and ensuring smooth project delivery. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17EeN65baze7KA2uSNuAe2ks9z0CcqrmE/view?usp=drive_link", 
-  displayGreeting: true 
+    "https://drive.google.com/file/d/17EeN65baze7KA2uSNuAe2ks9z0CcqrmE/view?usp=drive_link",
+  displayGreeting: true
 };
 
 
@@ -29,7 +29,7 @@ const socialMediaLinks = {
   github: "https://github.com/AdelAlradaie",
   linkedin: "https://www.linkedin.com/in/adel-alradaie",
   gmail: "adelalradaie@gmail.com",
-  display: true 
+  display: true
 };
 
 
@@ -97,19 +97,19 @@ const skillsSection = {
 
 
   ],
-  
+
 };
 
 
 
 const educationInfo = {
-  
+
   schools: [
     {
       schoolName: "National University ",
       logo: require("./assets/images/nationalLogo.png"),
       subHeader: "Bachelor degree in Information Technology",
-  
+
     },
 
   ]
@@ -118,11 +118,11 @@ const educationInfo = {
 
 
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", 
-      progressPercentage: "90%" 
+      Stack: "Frontend/Design",
+      progressPercentage: "90%"
     },
     {
       Stack: "Backend",
@@ -133,30 +133,30 @@ const techStack = {
       progressPercentage: "80%"
     }
   ],
-  displayCodersrank: false 
+  displayCodersrank: false
 };
 
 
 
 const workExperiences = [
 
-    {
-      role: "Front-End Developer",
-      company: "YORK BRITISH ACADEMY",
-      companylogo: require("./assets/images/york.jpg"),
-      date: "June 2024 – Aug 2024",
-       desc: "It's a startup in UK  ."
-      
-    },
-    {
-      role: "Full Stack Developer",
-      company: "TECH.SOFT",
-      companylogo: require("./assets/images/image_default.png"),
-      date: "Aug 2024 – present",
-       desc: "It's a startup in YE  developing websites and mobile apps."
-    },
+  {
+    role: "Front-End Developer",
+    company: "YORK BRITISH ACADEMY",
+    companylogo: require("./assets/images/york.jpg"),
+    date: "June 2024 – Aug 2024",
+    desc: "It's a startup in UK  ."
 
-  
+  },
+  {
+    role: "Front-End Developer",
+    company: "TECH.SOFT",
+    companylogo: require("./assets/images/image_default.png"),
+    date: "Aug 2024 – present",
+    desc: "It's a startup in YE  developing websites and mobile apps."
+  },
+
+
 ]
 
 
@@ -187,7 +187,7 @@ const Projects = {
           name: "Visit Website",
           url: "https://hujwzat.com/"
         }
-        
+
       ]
     },
     {
@@ -201,7 +201,7 @@ const Projects = {
         }
       ]
     },
-    
+
   ],
 
 };
@@ -260,8 +260,8 @@ const profileInfo = {
   title: "Reach Out to me!",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-    image:require("./assets/images/profile.jpg")
- 
+  image: require("./assets/images/profile.jpg")
+
 };
 
 

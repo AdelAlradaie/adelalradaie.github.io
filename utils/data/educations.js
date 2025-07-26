@@ -8,18 +8,5 @@ export const educations = [
     logo: "/nationalLogo.png"
   },
 
-  {
-    id: 2,
-    title: "Front End Development Libraries Certification",
-    duration: "2024",
-    institution: "freeCodeCamp",
-    logo: "/freecodecamp.png"
-  },
-  {
-    id: 3,
-    title: "Back End Development and APIs Certification",
-    duration: "2024",
-    institution: "freeCodeCamp",
-    logo: "/freecodecamp.png"
-  }
+ 
 ]

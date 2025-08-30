@@ -1,6 +1,6 @@
 import { personalData } from '../../../../utils/data/personal-data';
 import { BiLogoLinkedin } from "react-icons/bi";
-import { IoLogoGithub, IoMdCall } from "react-icons/io";
+import { IoLogoGithub } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 
 
@@ -17,15 +17,6 @@ function ContactSection() {
             size={36}
           />
           <span>{personalData.email}</span>
-        </p>
-        <p className="text-sm md:text-xl flex items-center gap-3">
-          <IoMdCall
-            className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#1da1f2] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-            size={36}
-          />
-          <span>
-            {personalData.phone}
-          </span>
         </p>
 
       </div>

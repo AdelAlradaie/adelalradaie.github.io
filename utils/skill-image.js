@@ -1,7 +1,7 @@
 import css from '../src/assets/svg/skills/css.svg';
 import html from '../src/assets/svg/skills/html.svg';
 import javascript from '../src/assets/svg/skills/javascript.svg';
-import mongoDB from '../src/assets/svg/skills/mongoDB.svg';
+import postgresql from '../src/assets/svg/skills/postgresql.png';
 import nextJS from '../src/assets/svg/skills/nextJS.svg';
 import react from '../src/assets/svg/skills/react.svg';
 import tailwind from '../src/assets/svg/skills/tailwind.svg';
@@ -23,8 +23,8 @@ export const skillsImage = (skill) => {
       return react;
     case 'typescript':
       return typescript;
-    case 'mongodb':
-      return mongoDB;
+    case 'postgresql':
+      return postgresql;
     case 'tailwind':
       return tailwind;
     case 'vitejs':

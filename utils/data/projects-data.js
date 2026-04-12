@@ -4,7 +4,7 @@ export const projectsData = [
         title: 'Portfolio',
         description: "Software Developer Portfolio Website built with react.js and tailwind CSS that helps you showcase your work and skills as a software developer.",
         techs: ['HTML','Css','React','ViteJS', 'Tailwind',],
-        image: "/portfolio.PNG",
+        image: "/portfolio.png",
         url: "https://adelalradaie.github.io/"
     },
     {

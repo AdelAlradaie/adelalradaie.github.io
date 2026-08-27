@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint .",
-   "deploy": "gh-pages -d dist --repo https://github.com/adelalradaie/adelalradaie.github.io.git",
+    "deploy": "gh-pages -d dist --repo https://github.com/adelalradaie/adelalradaie.github.io.git",
     "predeploy": "npm run build"
   },
   "dependencies": {

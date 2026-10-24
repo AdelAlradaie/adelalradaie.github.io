@@ -8,5 +8,5 @@ export const personalData = {
   // email: 'devadelmohammed@gmail.com',
   github: 'https://github.com/AdelAlradaie',
   linkedIn: 'https://www.linkedin.com/in/adel-alradaie',
-  resume: "https://drive.google.com/file/d/1Q9zioskcP3mbTrdXrtdzQx-eM3EDsW9f/view?usp=drive_link"
+  resume: ""
 }
